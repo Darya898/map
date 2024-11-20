@@ -1,0 +1,22 @@
+.sidebar{
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+    background: #000;
+    height: 100vh;
+    z-index: 2;
+    color:#fff;
+    transition: width 0.3s;
+}
+.sidebar__small{
+    width: 50px;
+}
+.sidebar__full{
+    width: 190px;
+}
+.logo{
+    margin-top: 14px;
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
